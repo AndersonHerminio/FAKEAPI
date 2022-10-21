@@ -1,0 +1,40 @@
+body{
+    background-image: url(https://nexxto.com/wp-content/uploads/2021/01/6-tecnologias-para-saude-2021-scaled.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+#heading{
+    background-color: rgba(84, 129, 198, 0.7);
+}
+#heading div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+#heading h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+#btnBV{
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    background-color: rgba(84, 129, 198, 0.7);
+}
+.btn:hover{
+    background-color: rgba(84, 129, 198, 1);
+}
